@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments / Conda
+.venv/
+venv/
+env/
+
+# Local secrets / environment files
+.env
+.env.*
+
+# Browser profiles and login/session data
+browser_data/
+browser_data_v2/
+browser_data_test/
+
+# Downloaded media / generated output
+output/
+汇总/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+
+# Optional local VS Code settings
+.vscode/
